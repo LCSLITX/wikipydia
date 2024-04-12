@@ -1,2 +1,2 @@
 # wikipydia
-Wikipedia wrapper for Python.
+Simple Python wrapper for Wikipedia API.
