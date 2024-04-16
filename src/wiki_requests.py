@@ -33,7 +33,3 @@ class WikiRequests:
         req_session = requests.session()
         resp = req_session.get(url=url, params=params, headers=headers)
         return resp.json()
-
-    @staticmethod
-    def post(url: str, params: dict = None, headers: dict = None):
-        pass

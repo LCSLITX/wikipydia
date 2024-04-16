@@ -106,9 +106,3 @@ class Wikipydia:
 
         resp = WikiRequests.get(url=url, params=params)
         return resp
-
-
-if __name__ == '__main__':
-    print(Wikipydia.query_property(prop='linkshere', titles='James Bond'))
-    print(Wikipydia.query_search(srsearch='farinha', language='pt'))
-    print(Wikipydia.query_random(language='pt'))
