@@ -96,18 +96,10 @@ enable=
 # --disable=W"
 
 disable=
-     import-error
-#    attribute-defined-outside-init,
-#    invalid-name,
-#    missing-docstring,
-#    protected-access,
-#    too-few-public-methods,
-    # handled by black
-#    format,
-    # We anticipate #3512 where it will become optional
-#    fixme,
-#    cyclic-import,
-#    import-error,
+     import-error,
+     protected-access,
+     unused-argument,
+
 
 
 [REPORTS]

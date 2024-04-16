@@ -5,7 +5,7 @@ build:
 	python3 -m build
 
 lint:
-	pylint src
+	pylint src tests
 
 unit-tests:
 	python3 -m pytest --verbose
