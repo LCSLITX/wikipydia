@@ -20,3 +20,14 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/LCSLITX/wikipydia"
 Issues = "https://github.com/LCSLITX/wikipydia/issues"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+pythonpath = "src"
+addopts = [
+    "--import-mode=importlib",
+    "-ra -q"
+]
+testpaths = [
+    "tests",
+]
